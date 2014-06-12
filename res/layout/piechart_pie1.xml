@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hicharts.view.Pie xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mcharts="http://schemas.android.com/apk/res-auto"
+    android:id="@id/pie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    mcharts:labelSize="15sp"
+    mcharts:startAngle="90"
+    mcharts:sweepAngle="45"/>

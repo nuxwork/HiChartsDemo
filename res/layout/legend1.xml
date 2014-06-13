@@ -5,13 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.hicharts.view.LegendItem
+    <com.hicharts.widget.Legend
         android:id="@+id/legend1"
+        android:visibility="visible"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        mcharts:label="hello"
-        mcharts:labelColor="#ff0000"
-        mcharts:labelSize="18sp" 
-        android:background="#000000"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

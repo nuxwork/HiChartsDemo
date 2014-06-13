@@ -1,8 +1,9 @@
-package com.hicharts.demo;
+package com.hicharts.demo.widget;
 
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.hicharts.demo.R;
 import com.hicharts.widget.PieChart;
 import com.hicharts.widget.PieChartAdapter;
 

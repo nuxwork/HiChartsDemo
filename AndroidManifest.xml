@@ -33,6 +33,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.hicharts.demo.view.Pie3D1"
+            android:label="view/Pie3D"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme_FullScreen" >
+            <intent-filter>
+                <action android:name="com.hicharts.SIMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.hicharts.demo.widget.PieChart1"
             android:label="widget/PieChart"
             android:screenOrientation="landscape"
@@ -53,6 +62,15 @@
         <activity
             android:name="com.hicharts.demo.chart.PieChart1"
             android:label="chart/PieChart"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme_FullScreen" >
+            <intent-filter>
+                <action android:name="com.hicharts.SIMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hicharts.demo.chart.PieChart3D1"
+            android:label="chart/PieChart3D"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme_FullScreen" >
             <intent-filter>

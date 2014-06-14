@@ -10,7 +10,7 @@ import com.hicharts.widget.LegendAdapter;
 import com.hicharts.widget.PieChart;
 import com.hicharts.widget.PieChartAdapter;
 
-public class PieChart1 extends Activity {
+public class PieChart3D1 extends Activity {
 	private PieChart	mPieChart;
 	private Legend		mLegend;
 
@@ -20,12 +20,14 @@ public class PieChart1 extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.chart_piechart1);
+		setContentView(R.layout.chart_piechart3d1);
 
 		mPieChart = (PieChart) findViewById(R.id.pieChart1);
 		mLegend = (Legend) findViewById(R.id.legend1);
 
-		mPieChart.setAdapter(new PieChartAdapter(this, mValues, null, View.NO_ID));
+		PieChartAdapter adapter = new PieChartAdapter(this, mValues, null, View.NO_ID);
+		adapter.set3D(true);
+		mPieChart.setAdapter(adapter);
 		mLegend.setAdapter(new LegendAdapter(this, mLabels));
 	}
 }
